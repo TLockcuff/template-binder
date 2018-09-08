@@ -4,8 +4,8 @@ var mc = {};
 * Template Binder
 * Returns an html string by binding data to a template with built in plugins and iterators
 *
-* Example (Basic):      mc.template($('#template'), [data...]);
-* Example (Advanced):   mc.template($('#template'), [data...], function(key, value) { return value; });
+* Example (Basic):      mc.template.run($('#template'), [data...]);
+* Example (Advanced):   mc.template.run($('#template'), [data...], function(key, value) { return value; });
 *
 * Run Params:
 * @param {string|jQuery} template the html template.
